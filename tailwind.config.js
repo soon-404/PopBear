@@ -4,12 +4,20 @@ module.exports = {
   theme: {
     extend: {
       width: {
-        "bearBig": "30rem",
-        "bearSmall": "20rem",
+        "bearBig": "55vw",
+        "bearSmall": "45vw",
       },
       height: {
-        "bearBig": "30rem",
-        "bearSmall": "20rem",
+        "bearBig": "50vh",
+        "bearSmall": "30vh",
+      },
+      fontSize: {
+        "headerBig": "5vw",
+        "headerMed": "6vw",
+        "headerSmall": "7vw",
+        "scoreBig": "5vw",
+        "scoreMed": "6vw",
+        "scoreSmall": "7vw",
       },
     },
   },
