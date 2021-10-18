@@ -45,17 +45,18 @@ function App() {
       <a href='https://github.com/soon-404/PopBear'>
         <img src={gitHub} className='absolute top-3 right-3 w-8 h-8'></img>
       </a>
-      <text className=' top-10 text-5xl md:text-7xl font-extrabold text-white mb-10'>
+      <text className=' top-10 text-5xl lg:text-7xl font-extrabold text-white mb-10'>
         PopBear
       </text>
-      <text className=' top-40 text-4xl md:text-6xl font-extrabold text-white'>
+      <text className=' top-40 text-4xl lg:text-6xl font-extrabold text-white'>
         {score}
       </text>
       <img
         src={img}
-        className='w-bearSmall md:w-bearBig h-bearSmall md:h-bearBig'
+        className='w-bearSmall lg:w-bearBig h-bearSmall lg:h-bearBig'
+        onContextMenu='return false;'
       ></img>
-      <text className='text-sm md:text-lg text-white absolute bottom-3'>
+      <text className='text-sm lg:text-lg text-white absolute bottom-3'>
         soon-404
       </text>
     </div>
