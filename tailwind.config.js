@@ -5,11 +5,11 @@ module.exports = {
   theme: {
     extend: {
       width: {
-        "bearBig": "40rem",
+        "bearBig": "30rem",
         "bearSmall": "20rem",
       },
       height: {
-        "bearBig": "40rem",
+        "bearBig": "30rem",
         "bearSmall": "20rem",
       },
     },
