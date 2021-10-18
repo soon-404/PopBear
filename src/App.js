@@ -38,7 +38,7 @@ function App() {
   };
   return (
     <div
-      className='flex flex-col justify-center items-center w-full h-full bg-blue-400 absolute inset-0'
+      className='flex flex-col justify-center items-center w-screen h-screen bg-blue-400 absolute inset-0'
       {...bind}
       onClick={HandleScore}
     >
