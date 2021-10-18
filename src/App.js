@@ -38,17 +38,17 @@ function App() {
   };
   return (
     <div
-      className='flex flex-col justify-center items-center w-screen h-screen bg-blue-400 absolute inset-0 overflow-auto'
+      className='flex flex-col items-center w-screen h-screen bg-blue-400 overflow-scroll'
       {...bind}
       onClick={HandleScore}
     >
       <a href='https://github.com/soon-404/PopBear'>
         <img src={gitHub} className='absolute top-3 right-3 w-8 h-8'></img>
       </a>
-      <text className=' top-10 text-5xl lg:text-7xl font-extrabold text-white mb-10'>
+      <text className=' top-10 text-5xl lg:text-7xl font-extrabold text-white mt-10 lg:mt-16 mb-10'>
         PopBear
       </text>
-      <text className=' top-40 text-4xl lg:text-6xl font-extrabold text-white'>
+      <text className=' top-40 text-4xl lg:text-6xl font-extrabold text-white mb-0 lg:mb-16'>
         {score}
       </text>
       <img
@@ -56,9 +56,6 @@ function App() {
         className='w-bearSmall lg:w-bearBig h-bearSmall lg:h-bearBig'
         onContextMenu='return false;'
       ></img>
-      <text className='text-sm lg:text-lg text-white absolute bottom-3'>
-        soon-404
-      </text>
     </div>
   );
 }
