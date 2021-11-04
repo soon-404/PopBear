@@ -45,20 +45,17 @@ function App() {
     >
       <div className='flex flex-col items-center justify-center w-screen h-2/5'>
         <a href='https://github.com/soon-404/PopBear'>
-          <img src={gitHub} className='absolute top-3 right-3 w-8 h-8'></img>
+          <img src={gitHub} className='absolute w-8 h-8 top-3 right-3'></img>
         </a>
-        <text className=' text-headerSmall md:headerMed lg:text-headerBig font-extrabold text-white select-none'>
+        <text className='font-extrabold text-white select-none text-headerSmall md:headerMed lg:text-headerBig'>
           PopBear
         </text>
-        <text className='  text-scoreSmall md:headerMed lg:text-scoreBig font-extrabold text-white select-none'>
+        <text className='font-extrabold text-white select-none text-scoreSmall md:headerMed lg:text-scoreBig'>
           {score}
         </text>
       </div>
       <div className='flex items-center justify-center w-screen h-3/5'>
-        <img
-          src={img}
-          className='w-bearSmall lg:w-bearBig h-bearSmall lg:h-bearBig select-none'
-        ></img>
+        <img src={img} className='w-64 h-64 select-none sm:w-96 sm:h-96'></img>
       </div>
     </div>
   );
